@@ -9,8 +9,11 @@
 7. Using loop concept the program will give the output of numbers making a right triangle. 
 8. Enter any number from 2 digit to 5 digit and the output will be the sum of all the distinguish digits of the numbers.
 9. Program which can count the no. of two digit numbers in 2-D array.
+
 10.Program to store numbers in an array and allow user to enter any number which he/she wants to find in array.(Binary Search)
+
 11.Enter numbers in an array in any order and it will give the output of numbers in ascending order.
+
 12.Progarm which enters an array,sort it,search elements,display the array.
 13.Enter two arrays and the output will be the merge of two arrays. 
 14.Insertion sort.
