@@ -1,3 +1,5 @@
+//Program which finds the length, compare and concatenate two strings.
+
 #include<iostream.h>
 #include<conio.h>
 #include<stdio.h>
