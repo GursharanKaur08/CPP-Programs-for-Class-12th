@@ -1,3 +1,5 @@
+//Enter 3 strings and the output will show the longest string and the shortest string.
+
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
