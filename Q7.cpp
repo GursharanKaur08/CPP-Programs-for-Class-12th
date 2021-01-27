@@ -1,3 +1,5 @@
+//Using loop concept the program will give the output of numbers making a right triangle.
+
 #include<iostream.h>
 #include<conio.h>
 main()
