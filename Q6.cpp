@@ -1,3 +1,5 @@
+//Enter any number and the output will be all the prime numbers up to that number.
+
 #include<iostream.h>
 #include<conio.h>
 main()
