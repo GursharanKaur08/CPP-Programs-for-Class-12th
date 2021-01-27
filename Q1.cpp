@@ -1,3 +1,5 @@
+//Program for copy constructor.
+
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
