@@ -1,3 +1,5 @@
+//Deleting the information of employee by entering the employee number. 
+
 #include<iostream.h>
 #include<conio.h>
 #include<fstream.h>
