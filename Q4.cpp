@@ -1,3 +1,5 @@
+//Enter item no. , price and quantity in a class.
+
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
