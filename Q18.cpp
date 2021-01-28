@@ -1,3 +1,5 @@
+//Program will read the words which starts from vowels stored in a file.
+
 #include<iostream.h>
 #include<fstream.h>
 #include<conio.h>
