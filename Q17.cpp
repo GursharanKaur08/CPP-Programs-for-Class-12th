@@ -1,3 +1,5 @@
+//Enter any line or character in a file and press * to exit the program.
+
 #include<iostream.h>
 #include<fstream.h>
 #include<conio.h>
