@@ -1,3 +1,5 @@
+//Program to store numbers in an array and allow user to enter any number which he/she wants to find in array.(Binary Search)
+
 #include<iostream.h>
 #include<conio.h>
 main()
