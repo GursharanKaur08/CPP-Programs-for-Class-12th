@@ -1,3 +1,5 @@
+//Enter two arrays and the output will be the merge of two arrays.
+
 # include <iostream.h>
 # include <conio.h>
  main()
