@@ -1,3 +1,5 @@
+//Enter rows and columns and the output will be the sum of the diagonals.
+
 #include<iostream.h>
 #include<conio.h>
  void main()
