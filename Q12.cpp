@@ -1,3 +1,5 @@
+//Program which enters an array,sort it,search elements,display the array.
+
 #include<iostream.h>
 #include<conio.h>
 void main()
