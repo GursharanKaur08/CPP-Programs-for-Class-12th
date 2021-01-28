@@ -1,3 +1,5 @@
+//Enter employee no., name, age, salary and store it in a file.
+
 #include<iostream.h>
 #include<conio.h>
 #include<fstream.h>
