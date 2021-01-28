@@ -1,3 +1,5 @@
+//Enter numbers in an array in any order and it will give the output of numbers in ascending order.
+
 #include<iostream.h>
 #include<conio.h>
 void main()
