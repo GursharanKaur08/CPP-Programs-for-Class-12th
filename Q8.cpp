@@ -1,3 +1,5 @@
+//Enter any number from 2 digit to 5 digit and the output will be the sum of all the distinguish digits of the numbers.
+
 #include<iostream.h>
 #include<conio.h>
 main()
