@@ -1,3 +1,5 @@
+//Program which can count the no. of two digit numbers in 2-D array.
+
 #include<iostream.h>
 #include<conio.h>
 void twodigit(int a[10][10],int m,int n)
