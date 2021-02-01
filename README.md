@@ -22,7 +22,7 @@
 
 11.Enter numbers in an array in any order and it will give the output of numbers in ascending order.
 
-12.Progarm which enters an array,sort it,search elements,display the array.
+12.Program which enters an array,sort it,search elements,display the array.
 
 13.Enter two arrays and the output will be the merge of two arrays. 
 
