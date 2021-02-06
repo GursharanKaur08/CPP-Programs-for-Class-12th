@@ -8,6 +8,7 @@ void findlength()
 {          
 	char str[30];
 	int l=0;
+	
 	cout<<"\n Enter the string (size<=30) ";
 	gets(str);
 	
@@ -22,6 +23,7 @@ void compare()
 {           
 	char str1[30], str2[30];
 	int l1=0,l2=0,i=0,flag=0;
+	
 	cout<<"\n Enter the string1 (size<=30) ";
 	gets(str1);
 	
@@ -108,5 +110,6 @@ void main()
 	"2.Compare two Strings \n\t3.Concatenate two strings\n\t4.Exit \n";
 	cin>>ch;
 	} while(ch!='4');
+	
 	getch();
 }
