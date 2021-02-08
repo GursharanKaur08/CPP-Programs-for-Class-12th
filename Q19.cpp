@@ -4,15 +4,19 @@
 #include<conio.h>
 #include<fstream.h>
 int row=5,col=2;
+
 class abc
-{	private:
+{	
+	private:
 	int empno;
 	char n[20];
 	int age;
 	float sal;
-public:
+	
+	public:
 	void getdata()
-	{	char ch;
+	{	
+		char ch;
 		cin.get(ch);	      // To empty buffer
 		cout<<"\nEnter employee no ";
 		cin>>empno;
@@ -24,7 +28,8 @@ public:
 		cin>>sal;
 	}
 	void putdata()
-            {	gotoxy(col,row);
+        {	
+		gotoxy(col,row);
 		cout<<"\n"<<empno;
 	     	gotoxy(col+10,row);
 		cout<<"\t"<<n;
@@ -35,13 +40,16 @@ public:
 	     	row++;
 	}
 };
+
 main()
-{	clrscr();
+{	
+	clrscr();
 	abc p,p1;
 	fstream f1("emp5.txt",ios::in|ios::out|ios::binary);
 	int i;
 	for(i=0;i<3;i++)
-	{	p.getdata();
+	{	
+		p.getdata();
 		f1.write((char *)&p,sizeof(p));
 	}
 	cout<<"\n\nEMPNO\tNAME\tAGE\tSALARY\n";
@@ -49,7 +57,8 @@ main()
 	f1.clear();
 	clrscr();
 	for(i=0;i<3;i++)
-	{	f1.read((char*)&p1,sizeof(p1));
+	{	
+		f1.read((char*)&p1,sizeof(p1));
 		p1.putdata();
 	}
 f1.close();
