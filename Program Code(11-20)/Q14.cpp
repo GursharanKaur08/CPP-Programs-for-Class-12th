@@ -10,7 +10,8 @@ void main()
 	cin>>n;
 	
     for(i=0;i<n;i++)
-	{	cout<<"\nEnter no ";
+	{	
+		cout<<"\nEnter no ";
 		cin>>a[i];
 	}
 	cout<<"\n\n";
@@ -19,9 +20,11 @@ void main()
 		cout<<" "<<a[i];
 	
     for(i=0;i<n;i++)
-	{	for(j=i+1;j<n;j++)
+	{	
+		for(j=i+1;j<n;j++)
 			if(a[i]>a[j])
-			 {	t=a[i];
+			 {	
+				t=a[i];
 				a[i]=a[j];
 				a[j]=t;
 			 }
