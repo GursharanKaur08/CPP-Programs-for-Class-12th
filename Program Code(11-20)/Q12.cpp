@@ -31,8 +31,9 @@ void main()
 						temp=a[j];
 						a[j]=a[j+1];
 						a[j+1]=temp;
+					}	
 						break;
-					}
+				}
 			case   '3':
 				{	
 					cout<<"\nThe element to be searched";
@@ -49,6 +50,7 @@ void main()
 						else
 						last=mid-1;
 					}
+						
 			if(flag>0)
 			cout<<"\nThe Element is Found at: "<<++flag<<" in the sorted array";
 			else
