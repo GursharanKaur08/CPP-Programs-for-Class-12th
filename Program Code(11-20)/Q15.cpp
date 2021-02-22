@@ -27,11 +27,10 @@ void main()
 				p=j;
 			}
 		}
-	
 			t=a[i];
 			a[i]=a[p];
 			a[p]=t;
-		}
+	}
 	cout<<"\n\n";
 	
     for(i=0;i<n;i++)
