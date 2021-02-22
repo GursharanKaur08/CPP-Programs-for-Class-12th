@@ -49,18 +49,20 @@ void main()
 						else
 						last=mid-1;
 					}
-				}	
-	if(flag>0)
-	cout<<"\nThe Element is Found at: "<<++flag<<" in the sorted array";
-	else
-	cout<<"\n No such Element";
-	break;
-			
+			if(flag>0)
+			cout<<"\nThe Element is Found at: "<<++flag<<" in the sorted array";
+			else
+			cout<<"\n No such Element";
+			break;
+				}
+
 			case '4':
-			 	{	cout<<"\n";
+			 	{	
+					cout<<"\n";
 					for(i=0;i<n;i++)
 					cout<<a[i]<<ends;
 				}
-}while(ch!='5');
+	}while(ch!='5');
+
 getch();
 }
