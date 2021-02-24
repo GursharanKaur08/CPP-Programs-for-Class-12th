@@ -3,34 +3,41 @@
 #include<iostream.h>
 #include<conio.h>
 #include<stdlib.h>
+
 struct queue
-{	int x;
+{	
+	int x;
 	queue *next;
 }*front=NULL,*rear;
+
 void insert(int);
 void delnode();
 void display();
+
 void main()
-{	int a,ch;
+{	
+	int a,ch;
 	clrscr();
 	do
-	{	cout<<"\nEnter 1 for Insert";
+	{	
+		cout<<"\nEnter 1 for Insert";
 		cout<<"\nEnter 2 for Delete";
 		cout<<"\nEnter 3 for display";
 		cout<<"\nEnter 4 for exit";
 		cout<<"\n\nEnter your choice ";
 		cin>>ch;
 		switch(ch)
-		{	case 1:	cout<<"\nEnter no for insert ";
+		{	
+			case 1:	cout<<"\nEnter no for insert ";
 			cin>>a;
 			
-		insert(a);
-		break;
-		case 2:	delnode();
+			insert(a);
+			break;
+			case 2:	delnode();
 				break;
-		case 3:	display();
+			case 3:	display();
 				break;
-		case 4:	exit(0);
+			case 4:	exit(0);
 		}
 	}
 	while(1);
