@@ -43,22 +43,28 @@ class abc
 	}
 };
 main()
-{	clrscr();
+{	
+	clrscr();
 	abc p,p1;
 	fstream f1("emp5.txt",ios::in|ios::out|ios::binary);
 	int i;
+
 	for(i=0;i<3;i++)
-	{	p.getdata();
+	{	
+		p.getdata();
 		f1.write((char *)&p,sizeof(p));
 	}
 	cout<<"\n\nEMPNO\tNAME\tAGE\tSALARY\n";
 	f1.seekg(0);
 	f1.clear();
 	clrscr();
+
 	for(i=0;i<3;i++)
-	{	f1.read((char*)&p1,sizeof(p1));
+	{	
+		f1.read((char*)&p1,sizeof(p1));
 		p1.putdata();
 	}
-f1.close();
-getch();
+
+	f1.close();
+	getch();
 }
