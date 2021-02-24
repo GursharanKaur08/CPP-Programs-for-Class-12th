@@ -44,13 +44,15 @@ void main()
 	getch();
 }
 void insert(int no)	        //char str[]
-{	queue *ptr;
+{	
+	queue *ptr;
 	ptr=new queue;       
             ptr=(struct queue*)malloc(sizeof(struct queue));
 	ptr->x=no;
 	ptr->next=NULL;
 	if(front==NULL)
-	{	front=ptr;
+	{	
+		front=ptr;
 		rear=ptr;
 	}
 	else
@@ -59,11 +61,14 @@ void insert(int no)	        //char str[]
 		rear=ptr;
 	}
 }
+
 void delnode()
-{	int p;
+{	
+	int p;
 	queue *ptr;
 	if(front==NULL)
-	{	cout<<"\n\nQueue is Empty";
+	{	
+		cout<<"\n\nQueue is Empty";
 		return;
 	}
 	p=front->x;        
@@ -72,11 +77,11 @@ void delnode()
 	delete ptr;
 	cout<<"\ndeleted element "<<p<<"\n";
 }
+
 void display()
-{	queue *ptr;
+{	
+	queue *ptr;
 	cout<<"\nQueue now:- \n";
 	for(ptr=front;ptr!=NULL;ptr=ptr->next)
 	cout<<" "<<ptr->x;
-}
-getch ();
 }
