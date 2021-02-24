@@ -3,16 +3,21 @@
 #include<iostream.h>
 #include<conio.h>
 #include<fstream.h>
+
 int row=5,col=2;
+
 class abc
-{	private:
+{	
+	private:
 	int empno;
 	char n[20];
 	int age;
 	float sal;
-public:
+	
+	public:
 	void getdata()
-	{	char ch;
+	{	
+		char ch;
 		cin.get(ch);	      // To empty buffer
 		cout<<"\nEnter employee no ";
 		cin>>empno;
@@ -23,8 +28,10 @@ public:
 		cout<<"\nEnter salary ";
 		cin>>sal;
 	}
+
 	void putdata()
-            {	gotoxy(col,row);
+    {	
+			gotoxy(col,row);
 		cout<<"\n"<<empno;
 	     	gotoxy(col+10,row);
 		cout<<"\t"<<n;
